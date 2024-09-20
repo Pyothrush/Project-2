@@ -34,7 +34,7 @@ function playGame(){
         console.log("Your score: "+humanScore+" Computer's score: "+computerScore);
     }
     
-    for(i=0; i<=5; i++){
+    for(i=0; i<=4; i++){
         playRound();
     }
 }
