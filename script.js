@@ -6,7 +6,7 @@ function getComputerChoice(){
 }
 
 function getHumanChoice(){
-    prompt("Choose your move!");
+    prompt("Choose your move!", "rock, paper or scissors");
 }
 
 function playGame(){
@@ -14,7 +14,7 @@ function playGame(){
     let computerScore = 0;
 
     function playRound(humanChoice, computerChoice){
-        humanChoice = getComputerChoice();
+        humanChoice = getHumanChoice();
         computerChoice = getComputerChoice();
         if (humanChoice === computerChoice){
             console.log("It's a draw!");
