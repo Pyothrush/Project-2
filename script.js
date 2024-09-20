@@ -28,11 +28,11 @@ function playGame(){
             console.log("You loose!");
             computerScore++;
         } 
-
+        console.log(humanChoice);
+        console.log(computerChoice);
     } 
-       
-    for(let i=0; i<5; i++){
-        playRound();
-    }
+
+    playRound();
+    
 }
 playGame();
